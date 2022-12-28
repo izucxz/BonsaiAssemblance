@@ -781,15 +781,13 @@ user-select: none;
 
 .feat {
     display: flex;
-    padding-right: 50px;
+    padding-right: 250px;
     margin-top: 48px;
-    max-width: 580px
 }
 
 .features {
     display: flex;
     flex-wrap: wrap;
-
     -webkit-user-select: none;
 -khtml-user-select: none;
 -moz-user-select: none;
@@ -806,17 +804,14 @@ user-select: none;
     line-height: normal;
     padding-bottom: 10px;
     font-feature-settings: 'liga' off;
-    color: #f9fefd
+    color: #f9fefd;
 }
 
-.card .feat-h {
-    padding-bottom: 0
-}
 
 .feat-i {
     height: 64px;
     width: 64px;
-    margin-right: 20px;
+    margin-right: 14px;
 }
 
 .feat-p {
@@ -2567,7 +2562,18 @@ input {
         margin-right: 10px
     }
     .feat {
-        max-width: 100%
+        max-width: 100%;
+        padding-right: 50px;
+    }
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
     }
     h2 {
         max-width: 100%
@@ -4496,7 +4502,10 @@ input {
         right: 30px;
         font-size: 30px;
     }
-
+    .feat {
+        max-width: 100%;
+        padding-right: 50px;
+    }
     
 }
 
@@ -4572,5 +4581,10 @@ input {
         line-height: 19px;
         color: #fff;
         background-color: #173042;
+    }
+
+    .feat {
+        max-width: 100%;
+        padding-right: 50px;
     }
 }
