@@ -424,18 +424,10 @@ user-select: none;
     margin-top: 20px;
 }
 
-.btn-1:hover {
-    background: #f9fefd;
-    box-shadow: 0 0 20px rgba(139, 144, 255, .7);
-    border-radius: 4px;
-    color: rgb(54, 54, 54);
-}
-
 .btn-2:hover {
-    background: #f9fefd;
-    box-shadow: 0 0 20px rgba(139, 144, 255, .7);
-    border-radius: 4px;
-    color: rgb(54, 54, 54);
+    background: #F48CA0;
+    border-radius: 7px;
+    color: white;
 }
 
 .intro-t {
@@ -479,7 +471,7 @@ user-select: none;
 .btn-1 {
     width: 340px;
     height: 60px;
-    background: #64bb4a;
+    background: grey;
     border-radius: 7px;
     font-style: normal;
     font-weight: 1px;
@@ -490,30 +482,9 @@ user-select: none;
 }
 
 .btn-1:hover {
-    background: #f9fefd;
-    box-shadow: 0 0 20px rgba(139, 144, 255, .7);
-    border-radius: 4px;
-    color: #000
-}
-
-.btn-3 {
-    width: 268px;
-    height: 56px;
-    background: #8b90ff;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    cursor: pointer;
-    margin-top: 24px
-}
-
-.btn-3:hover {
-    background: #f9fefd;
-    box-shadow: 0 0 20px rgba(139, 144, 255, .7);
-    border-radius: 4px;
-    color: #000
+    background: grey;
+    border-radius: 7px;
+    cursor: not-allowed;
 }
 
 #inner-rev,
@@ -646,7 +617,6 @@ user-select: none;
 }
 
 .bg-dark1 {
-    background: #2a6e00;
     position: relative;
     padding-top: 128px;
     
@@ -787,13 +757,13 @@ user-select: none;
 
 .features {
     display: flex;
-    flex-wrap: wrap;
+    margin-bottom: -40px;
     -webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 .feat-h {
@@ -4297,6 +4267,7 @@ input {
     .side-footer {
         display: none
     }
+    
 }
 
 @media screen and (max-width:850px) {
@@ -4523,7 +4494,7 @@ input {
         width: 137%;
         height: 60px;
         border-radius: 7px;
-        cursor: pointer;
+        cursor: not-allowed;
         align-items: center;
     }
 
