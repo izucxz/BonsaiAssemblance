@@ -4285,20 +4285,31 @@ input {
     }
     }
 
-    @media screen and (max-width:900px) {
+    @media screen and (max-width:1050px) {
         .header_item {
-           width: 100%;
-           margin-right: 0;
-           display: flex;
-           flex-wrap: wrap;
-           align-items: center;
-           justify-content: center;
-           margin-top: 45px;
-           position: relative;
-           right: 30px;
-           font-size: 30px;
+            padding-left: 10px;
+            letter-spacing: .1em;
        }
        }
+
+    @media screen and (max-width:900px) {
+  
+    .header_item {
+        width: 100%;
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        position: relative;
+        right: 30px;
+        font-size: 30px;
+        letter-spacing: .1em;
+    }
+    }
+
+    
     
 
 @media screen and (max-width:540px) {
