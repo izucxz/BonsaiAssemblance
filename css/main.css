@@ -4575,16 +4575,16 @@ input {
     }
 }
 
-@media screen and (max-width:350px)
+@media screen and (max-width:380px)
 {
     .intro-m {
         align-items: center;
-        padding-right: 80px;
+        padding-right: 90px;
     }
 
     .intro-l {
         align-items: center;
-        padding-right: 80px;
+        padding-right: 90px;
     }
 }
 
