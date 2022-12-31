@@ -2808,7 +2808,9 @@ input {
         line-height: 24px
     }
     .intro-l {
-        margin-top: 30px
+        margin-top: 30px;
+        align-items: center;
+        padding-right: 100px;
     }
 
     .intro-h {
@@ -4544,8 +4546,7 @@ input {
     .intro-m {
         padding-right: 90px;
         align-items: center;
-        padding-left: 5px;
-        margin-top: -5px;
+        padding-right: 100px;
     }
 
     .intro {
@@ -4571,5 +4572,31 @@ input {
     .feat {
         max-width: 100%;
         padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:350px)
+{
+    .intro-m {
+        align-items: center;
+        padding-right: 80px;
+    }
+
+    .intro-l {
+        align-items: center;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width:300px)
+{
+    .intro-m {
+        align-items: center;
+        padding-right: 70px;
+    }
+
+    .intro-l {
+        align-items: center;
+        padding-right: 70px;
     }
 }
