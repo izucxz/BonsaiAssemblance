@@ -4498,6 +4498,11 @@ input {
 
 @media screen and (max-width:400px) {
    
+    .header_logo-pic,
+.header_logo-pic1 {
+    height: 30px
+}
+
     .intro-t {
         font-family: 'VT323', monospace;
         font-size: 20px;
@@ -4586,6 +4591,11 @@ input {
         align-items: center;
         padding-right: 90px;
     }
+
+    .header_logo-pic,
+.header_logo-pic1 {
+    height: 30px
+}
 }
 
 @media screen and (max-width:300px)
@@ -4599,4 +4609,9 @@ input {
         align-items: center;
         padding-right: 70px;
     }
+
+    .header_logo-pic,
+.header_logo-pic1 {
+    height: 26px
+}
 }
