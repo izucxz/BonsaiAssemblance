@@ -647,7 +647,7 @@ user-select: none;
 
 .what-is {
     font-family: 'VT323', monospace;
-    background: #ec778f;
+    background: #F48CA0;
     box-shadow: 0 10px 20px #1b4600;
     border-radius: 8px;
     display: flex;
@@ -758,6 +758,7 @@ user-select: none;
 .features {
     display: flex;
     margin-bottom: -40px;
+    filter: drop-shadow(0px -6px 18px #272727);
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -1069,7 +1070,7 @@ user-select: none;
 }
 
 .road-card1 {
-    background: #ec778f;
+    background: #F48CA0;
     box-shadow: 0 10px 20px #1b4600;
     border-radius: 8px;
     padding: 20px;
