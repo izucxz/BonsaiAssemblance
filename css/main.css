@@ -2366,6 +2366,8 @@ input {
     .header_list-small {
         display: flex;
         justify-content: center;
+        padding-left: 40px;
+        padding-top: 20px;
     }
     .header-small-1 {
         position: relative;
