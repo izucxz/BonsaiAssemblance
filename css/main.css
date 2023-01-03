@@ -770,6 +770,7 @@ user-select: none;
 .feat-h {
     font-family: 'VT323', monospace;
     font-style: normal;
+    width: 100px;
     font-weight: 700;
     font-size: 24px;
     line-height: normal;
@@ -2415,6 +2416,7 @@ input {
     .total-auc-min {
         width: 100%
     }
+
     .esses {
         justify-content: center
     }
@@ -4615,4 +4617,19 @@ input {
 .header_logo-pic1 {
     height: 26px
 }
+}
+
+@media screen and (max-width:1190px)
+{
+    .feat-h {
+        font-family: 'VT323', monospace;
+        font-style: normal;
+        width: 200px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: normal;
+        padding-bottom: 10px;
+        font-feature-settings: 'liga' off;
+        color: #f9fefd;
+    }
 }
