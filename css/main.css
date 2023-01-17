@@ -271,6 +271,8 @@ hr {
     line-height: 21px;
     padding-left: 40px;
     padding-right: 40px;
+    white-space: nowrap;
+    width: 160px;
 }
 
 .white {
@@ -486,6 +488,50 @@ user-select: none;
     border-radius: 7px;
     cursor: not-allowed;
 }
+
+.mainwl {
+    margin-top: 280px;
+}
+
+.resultwl {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.wlch {
+    color: white;
+    text-align: center;
+}
+
+.wlch1 {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border-width: .09em;
+    font-size: 1.3em;
+    font-family: 'VT323', monospace;
+}
+
+.checkb {
+    width: 340px;
+    height: 60px;
+    background: #64bb4a;
+    border-radius: 7px;
+    font-style: normal;
+    font-weight: 1px;
+    font-size: 36px;
+    line-height: 20px;
+    cursor: pointer;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.checkb:hover {
+    background: #F48CA0;
+    border-radius: 7px;
+    color: white;
+} 
 
 #inner-rev,
 #inner-rev1,
@@ -4632,4 +4678,103 @@ input {
         font-feature-settings: 'liga' off;
         color: #f9fefd;
     }
+}
+
+@media screen and (max-width:540px)
+{
+    .wlch {
+        color: white;
+        text-align: center;
+    }
+    
+    .wlch1 {
+        margin-bottom: 20px;
+        border-radius: 7px;
+        width: 400px;
+    }
+
+    .checkb {
+        width: 300px;
+        height: 55px;
+        background: #64bb4a;
+        border-radius: 7px;
+        font-style: normal;
+        font-weight: 1px;
+        font-size: 36px;
+        line-height: 20px;
+        cursor: pointer;
+        letter-spacing: .1em;
+        margin-top: 20px;
+    }
+
+    .resultwl {
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:455px)
+{
+    .wlch {
+        color: white;
+        text-align: center;
+    }
+    
+    .wlch1 {
+        margin-bottom: 20px;
+        border-radius: 7px;
+        width: 300px;
+    }
+
+    .checkb {
+        width: 270px;
+        height: 50px;
+        background: #64bb4a;
+        border-radius: 7px;
+        font-style: normal;
+        font-weight: 1px;
+        font-size: 36px;
+        line-height: 20px;
+        cursor: pointer;
+        letter-spacing: .1em;
+        margin-top: 20px;
+    }
+
+    .resultwl {
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:345px)
+{
+    .wlch {
+        color: white;
+        text-align: center;
+    }
+    
+    .wlch1 {
+        margin-bottom: 20px;
+        border-radius: 7px;
+        width: 200px;
+    }
+
+    .checkb {
+        width: 200px;
+        height: 45px;
+        background: #64bb4a;
+        border-radius: 7px;
+        font-style: normal;
+        font-weight: 1px;
+        font-size: 36px;
+        line-height: 20px;
+        cursor: pointer;
+        letter-spacing: .1em;
+        margin-top: 20px;
+    }
+
 }

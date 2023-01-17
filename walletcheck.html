@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bonsai Assemblance</title>
+    <meta name="description" content="Providing/creating new ways of web3 utilization. Join the forest and the journey!">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link type="image/x-icon" href="images\favicon.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="images\favicon.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <script>
+        function checkName() {
+          var name = document.getElementById("nameInput").value;
+          var savedNames = ["John", "Mary", "Jane"];
+          var resultText = "Sorry, this address was not found on our whitelist!";
+          var resultColor = "red";
+          if (savedNames.includes(name)) {
+            resultText = "Whitelisted!";
+            resultColor = "lime";
+          }
+          document.getElementById("result").innerHTML = resultText;
+          document.getElementById("result").style.color = resultColor;
+        }
+      </script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="/index.html" class="header_logo-link">
+<img src="images/logo.svg" class="header_logo-pic" alt="logoBA">
+</a>
+                </div>
+                <nav class="header_nav">
+                    <div class="header_logo7">
+                        <a href="/index.html" class="header_logo-link">
+</a>
+                    </div>
+                    <ul class="header_list">
+                        <li class="header_item">
+                            <a href="https://opensea.io/collection/thebonsaiassemblance" class="header_link">OpenSea</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="https://etherscan.io/address/0xe02d701a6183cf64adad56f905d33a21c7e83777" class="header_link">Etherscan</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="https://twitter.com/TheBonsaiNFT" class="header_link">Twitter</a>
+                        </li>
+                        <li class="header_item">
+                            <a href="https://instagram.com/bonsaiassemblance" class="header_link">Instagram</a>
+                        </li>
+                    </ul>
+                    <div class="header_list-small">
+                        <div class="header-small-1">
+                            <li class="header_item">
+                                <a href="https://opensea.io/collection/thebonsaiassemblance" class="header_link">OpenSea</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="https://etherscan.io/address/0xe02d701a6183cf64adad56f905d33a21c7e83777" class="header_link">Etherscan</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="https://twitter.com/TheBonsaiNFT" class="header_link">Twitter</a>
+                            </li>
+                            <li class="header_item">
+                                <a href="https://instagram.com/bonsaiassemblance" class="header_link">Instagram</a>
+                            </li>
+                        </div>
+                        <div class="header_nav-close">
+                            <a href="/index.html" class="header_logo-link">
+<img src="images\favicon.png" class="header_logo-pic" alt="">
+</a> <a class="icon"><img src="images/close.svg" /></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header_burger">
+                    <a class="icon"><img src="images/burger.svg" /></a>
+                </div>
+            </div>
+        </div>
+    </header>
+   <div class="mainwl"><form class="wlch">
+    <input class="wlch1" type="text" id="nameInput" placeholder="Enter wallet address 0x">
+    <div class="checkb1"><button type="button" class="checkb" onclick="checkName()">Check</button></div>
+    </form>
+    <p class="resultwl" id="result"></p></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>
