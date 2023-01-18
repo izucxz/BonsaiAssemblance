@@ -473,7 +473,7 @@ user-select: none;
 .btn-1 {
     width: 340px;
     height: 60px;
-    background: #64bb4a;
+    background: #bfc4bd;
     border-radius: 7px;
     font-style: normal;
     font-weight: 1px;
@@ -484,9 +484,9 @@ user-select: none;
 }
 
 .btn-1:hover {
-    background: #F48CA0;
+    background: #bfc4bd;
     border-radius: 7px;
-    color: white;
+    background: #bfc4bd;
 }
 
 .mainwl {
